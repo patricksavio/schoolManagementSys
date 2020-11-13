@@ -1,0 +1,297 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.navbar{
+    list-style-type: none;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(66, 57, 57);
+   
+}
+
+.navItem{
+    margin-left: 3%;
+    float: left;
+    transition-duration: 0.4s;
+}
+
+.navItem a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navItem:hover{
+    background-color: coral;
+    padding: 2px;
+}
+
+.navItem a:hover{
+    color: black;    
+}
+
+.admissionFlex{
+    background-image: url(admissionBg.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.admissionFlex h1{
+    text-align: right;
+    font-size: 40px;
+    padding-top: 5%;
+    padding-right: 5%;
+    font-family: monospace;
+    color: floralwhite;
+}
+
+.admissionFlex button{
+    margin-left: 20%;
+    margin-top: 8%;
+    height: 60px;
+    width: 200px;
+    border-radius: 7px;
+    outline: none;
+    border: 4px solid whitesmoke;
+    background-color: transparent;
+    font-weight: bolder;
+    transition-duration: 0.4s;
+
+}
+
+.admissionFlex button:hover{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    height: 63px;
+    width: 210px;
+}
+
+.graphDisplay{
+    background-image: url(pencilBg.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.graphDisplay h1{
+    font-size: 40px;
+    padding:2%;
+}
+
+.aboutUs{
+    background-image: url(graphBg.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.aboutUs h1{
+    font-size: 40px;
+    padding:3%;
+    color: azure;
+    font-family: cursive;
+}
+
+.aboutUs p{
+    margin-left: 5%;
+    margin-right: 20%;
+    font-size: 30px;
+    color: azure;
+    font-family: monospace;
+}
+
+.formContainer{
+    background:transparent;
+    display:flex;
+    justify-content: center;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    box-sizing: border-box;
+    padding: 30px;
+    color: yellow;
+    font-size: 18px;
+}
+
+.formContainer input{
+    padding: 10px;
+    margin: 1%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid springgreen;
+    font-size: 20px;
+    font-family: monospace;
+    outline: none;
+    color: tomato;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+.formContainer label{
+    margin-left: 1%;
+}
+.text{
+    width: 80%;
+}
+
+.formContainer select{
+    width: 30%;
+    background-color: cyan;
+    color:green;
+    border: none;
+    outline: none;
+    padding-left: 3px;
+    margin-left: 5px;
+}
+.text:focus{
+    width: 90%;
+    border-bottom: 2px solid whitesmoke;
+}
+.formContainer button{
+     width: 120px;
+     height: 30px;
+     margin-left: 30%;
+     border-radius: 5px;
+     background: transparent;
+     color: tomato;
+     border: 2px solid wheat;
+     transition-duration: 0.4s;
+     outline: none;
+}
+
+.formContainer button:hover{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 35px;
+}
+
+.list{
+    display: flexbox;
+    justify-content: center;
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.student{
+    padding: 30px;
+    width: 70%;
+    text-align: center;
+    font-size: 30px;
+    margin: 5%;
+    border: 5px solid teal;
+    border-radius: 60px;
+    margin-left: 0%;
+    transition-duration: 0.4s;
+    font-family: monospace;
+}
+
+.student:hover{
+    opacity: 0.5;
+}
+
+.student h1{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.student h2{
+    font-size: 20px;
+    color: rgb(230, 10, 10);
+    padding: 10px;
+}
+
+.student h3{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.list select{
+    width: 10%;
+    background-color: cyan;
+    color:green;
+    border: none;
+    outline: none;
+    padding-left: 3px;
+    margin-left: 5px;
+}
+
+.container{
+    background-color: black;
+    width: 450px;
+    height: 600px;
+    margin-top: 4%;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 12px 8px #888888;
+    border-radius: 10px;
+}
+
+.container input{
+    margin-top: 10%;
+    margin-left: 25%;
+    border-radius: 20px;
+    height: 40px;
+    width: 230px;
+    background: transparent;
+    border: 2px solid yellow;
+    color: yellow;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+.container input::placeholder{
+    color: rgb(255, 60, 0);
+}
+.container input:focus{
+    height: 45px;
+    width: 240px;
+    border: 2px solid red;
+}
+.container button{
+   margin-top: 13%;
+   margin-left: 35%;
+   width: 130px;
+   height: 40px;
+   border-radius: 5px;
+   background: transparent;
+   color: tomato;
+   border: 2px solid wheat;
+   transition-duration: 0.4s;
+   outline: none;
+}
+.container button:hover{
+   background-color: red;
+   color: white;
+   border: none;
+   width: 135px;
+   height: 43px;
+}

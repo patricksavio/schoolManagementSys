@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>StudentList</title>
+    </head>
+    <body style=" background-image: url(studentlistBg.jpg); background-repeat: no-repeat; background-size:cover ;background-attachment: fixed; background-position: center;">
+        <header>
+            <ul class="navbar">
+                <li class="navItem"><a href="./index.html">Home</a></li>
+                <li class="navItem"><a href="./admission.html">Admission</a></li>
+                <li class="navItem"><a href="./studentList.html">Students</a></li>
+                <li class="navItem"><a href="./index.html">About us</a></li>
+            </ul>
+        </header>
+        <div class="list" id="list">
+            <label style="font-size: 20px; margin-left: 8%;font-family: cursive;">Select the standard</label>
+        <select id="standard" required>
+          <option selected disabled>-select-</option>
+          <option>I</option>
+          <option>II</option>
+          <option>III</option>
+          <option>IV</option>
+          <option>V</option>
+          <option>VI</option>
+          <option>VII</option>
+          <option>VIII</option>
+          <option>IX</option>
+          <option>X</option>
+          <option>XI</option>
+          <option>XII</option>
+        </select>
+        <div id="studentDisplay">
+              
+        </div>      
+          
+        </div>
+        <script src="displayStudents.bundle.js"></script>
+    </body>
+</html>

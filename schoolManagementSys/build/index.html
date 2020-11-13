@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PS school</title>
+    </head>
+    <body>
+        <header>
+            <ul class="navbar">
+                <li class="navItem"><a href="">Home</a></li>
+                <li class="navItem"><a href="./admission.html">Admission</a></li>
+                <li class="navItem"><a href="./studentList.html">Students</a></li>
+                <li class="navItem"><a href="#abtus">About us</a></li>
+                <li class="navItem" style="float: right; margin-right: 5%;cursor: pointer;"><a id="status" style="color: aqua;">Login</a></li>
+            </ul>
+        </header>
+        <div class="admissionFlex">
+               <h1 style="color:rgb(92, 89, 88);">Join to witness the bright future of your <spna style="color: cornsilk;">little one</spna></h1>
+               <button onclick="location.href='./admission.html';">Admissions</button>
+        </div>
+        <div class="graphDisplay" style="display: flex; font-family: cursive;">
+            <div style="display:flexbox; margin-left: 2%;">
+             <h1 style="color: darkkhaki;">We grow Together... </h1>
+             <h1 style="padding-top: 25%; color: darkblue;">Total GEMS:<span id="total" style="color: darkslategray;"></span></h1>
+            </div>
+                <div style="height: 600px; width: 600px; margin-top: 3%;">
+                <canvas id="myChart" ></canvas>
+                </div>
+        </div>
+        <div class="aboutUs" id="abtus">
+            <h1>About us</h1>
+            <p>some content some content some content
+                some content some content some content
+                some content some content some content
+            </p>
+        </div>
+        <script src="home.bundle.js"></script>
+    </body>
+</html>

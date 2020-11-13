@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PS school-admission</title>
+    </head>
+    <body style="background-image: url(formBg.jpg); background-size: cover; background-repeat: no-repeat;background-attachment: fixed;">
+        
+        <div class="formContainer" id="formContainer">
+            <div style="font-size: 10%;"></div>
+              <form id="admissionForm">
+                  <input class="text" type="text" id="username" placeholder="UserName..." required>
+                  <input class="text" type="text" id="fathername" placeholder="Father's name..." style="margin-top: 0%;" required><br>
+                  <label>Enter your dob</label>
+                  <input type="date" id="dob" required style="margin-top: 0%;"><br>
+                  <label>Select the standard</label>
+                  <select id="standard">
+                    <option disabled selected>--Select--</option>
+                    <option>I</option>
+                    <option>II</option>
+                    <option>III</option>
+                    <option>IV</option>
+                    <option>V</option>
+                    <option>VI</option>
+                    <option>VII</option>
+                    <option>VIII</option>
+                    <option>IX</option>
+                    <option>X</option>
+                    <option>XI</option>
+                    <option>XII</option>
+                  </select> <br>
+                  <input class="text" type="text" id="address" placeholder="Address.." required><br>
+                  <label >Do you want to give your intrests</label>
+                  <input style="margin-top: 0%;"type="checkbox" id="intrest"><br>
+                  <textarea rows="5" cols="30" style="margin-bottom:5%; display: none;" placeholder="type here..." id="intrestText"></textarea>
+                  <div style="color: yellow; text-align: center; margin-bottom: 5%; margin-left: -17%; font-size: 27px;" id="warning" ></div>
+                  <button type="submit">Submit</button>
+                  
+              </form>
+        </div>
+        <script src="./addStudent.bundle.js"></script>
+    </body>
+</html>
